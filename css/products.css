@@ -1,0 +1,203 @@
+#farming {
+    position: relative;
+   bottom: 22px;
+}
+
+.products-front-image {
+    background-image: url(/css/images/place2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.product-main-head {
+    color: white;
+    font-size: 70px;
+}
+
+.product-main-desc {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.product-main-btn {
+    background-color: rgb(16, 119, 16);
+    border-style: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+    animation: blinkEffect 2s linear infinite alternate;
+}
+
+@keyframes blinkEffect {
+    0% {
+        opacity: 2.0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 2.0;
+    }
+}
+
+.product-main-btn:hover {
+    background-color: white;
+    color: rgb(16, 119, 16);
+}
+
+.products-section {
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgba(244, 244, 244);
+}
+
+.shop-by {
+    font-size: 45px;
+    color: #003300;
+}
+
+.shop-explore {
+    font-size: 18px;
+    color: rgb(93, 93, 93);
+    line-height: 30px;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 60px;
+}
+
+.pro-sec-photo {
+    height: 420px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.class {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.prod-cate {
+    position: relative;
+}
+
+
+.photos-names {
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+    text-align: start;
+    font-size: 30px;
+    
+}
+
+.organic-collection {
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(244, 244, 244);
+}
+
+.our-products {
+    letter-spacing: 2px;
+    color: rgb(9, 129, 9);
+    margin-bottom: 0;
+}
+
+.collects {
+    font-size: 40px;
+    color: #003300;
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+.pro-image {
+    height: 220px;
+    width:300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.shortcut-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: start;
+    padding-bottom: 30px;
+}
+
+.shortcut {
+    background-color: white;
+    border-radius: 20px;
+    height: 340px;
+    position: relative;
+}
+
+#up:hover {
+    position: relative;
+    bottom: 20px;
+}
+
+.green {
+    font-size: 21px;
+    padding-left: 20px;
+    color: #003300;
+    margin-bottom: 0;
+}
+
+.dollar {
+    padding-left: 20px;
+    color: rgb(20, 150, 20);
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.plus-icon {
+    position: absolute;
+    font-size: 35px;
+    bottom: 25px;
+    right: 20px;
+    color: rgb(20, 150, 20);
+}
+
+.plus-icon:hover {
+    color: #003300;
+    transform: scale(1.2);
+}
+
+.popup-box {
+    position: relative;
+}
+
+.pop-up {
+    position: absolute;
+    color: white;
+    background-color: rgb(4, 119, 4);
+    border-style: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    top: 20px;
+    left: 15px;
+}
+
+#down:hover {
+    position: relative;
+    top: 20px;
+}
