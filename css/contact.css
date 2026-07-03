@@ -1,0 +1,246 @@
+#farming {
+    position: relative;
+    bottom: 22px;
+}
+
+.background {
+    background-image: url(images/carrot2.jpeg);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    filter: brightness(80%);
+    z-index: -1;
+}
+
+
+.contact {
+    color: #02ff02;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.heading {
+    color: white;
+    font-size: 80px;
+    
+    max-width: 650px;
+    margin: 0 auto;
+
+}
+
+.description {
+    color: white;
+    font-size: 20px;
+    
+    line-height: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    gap: 50px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+
+.contact-image {
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.section-heading {
+    font-size: 55px;
+    color: #003300;
+    max-width: 500px;
+}
+
+.sec-info {
+    font-size: 25px;
+    color: #003300;
+
+}
+
+.sec-desctiption {
+    color: rgb(117, 117, 117);
+    font-weight: 200;
+    position: relative;
+    bottom: 10px;
+}
+
+.get {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #058205;
+}
+
+.name {
+    padding: 15px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.sec-box {
+    padding: 15px;
+    width: 600px;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.end {
+    color: rgb(119, 119, 119);
+    line-height: 30px;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+
+.contact-submit {
+    padding: 20px 30px;
+    background-color: #058205;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.contact-submit:hover {
+    background-color: #003300;
+    color: white;
+}
+
+hr {
+    width: 600px;
+    border: 1px solid rgb(233, 231, 231);
+}
+
+@media (max-width: 996px) {
+    .background {}
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .contact {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+}
+
+/* ---------- TABLET ---------- */
+
+@media (max-width:1024px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .main-image,
+    .main-img,
+    .field-img,
+    .contact-image,
+    .vege-img,
+    .pro-sec-photo,
+    .veg,
+    .david-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-title,
+    .about-heading,
+    .heading,
+    .services-heading,
+    .product-main-head {
+        font-size: 48px;
+    }
+
+    .main-discription,
+    .about-description,
+    .description,
+    .serv-desc,
+    .product-main-desc {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:768px) {
+
+    .background {
+        height: auto;
+        padding: 100px 20px;
+    }
+
+    .heading {
+        font-size: 42px;
+        bottom: 0;
+    }
+
+    .description {
+        font-size: 16px;
+        bottom: 0;
+        line-height: 30px;
+    }
+
+    .contact-sec,
+    .form-section {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .section-heading {
+        font-size: 36px;
+    }
+
+    .name,
+    .sec-box,
+    hr {
+        width: 100%;
+    }
+
+    .contact-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-submit {
+        width: 100%;
+    }
+
+}

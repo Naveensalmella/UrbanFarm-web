@@ -1,0 +1,403 @@
+
+
+#farming {
+    position: relative;
+   bottom: 22px;
+}
+
+
+.about-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:60px;
+    min-height:96vh;
+    padding:70px 40px;
+    background:#f4f4f4;
+}
+
+.main-img {
+    width:100%;
+    max-width:520px;
+    height:auto;
+    border-radius:20px;
+    margin:80px 0;
+}
+
+.about-heading {
+    font-size: 70px;
+    color: #003300;
+    
+    line-height:1.15;
+    max-width:600px;
+    
+}
+
+.about-description {
+    
+    font-size:18px;
+    line-height:32px;
+    color:#555;
+    max-width:600px;
+    
+}
+
+.main-btn {
+    color: white;
+    background-color: #004d00;
+    
+    border-style: none;
+    border-radius: 10px;
+    font-size: 17px;
+    
+    padding:15px 30px;
+    
+}
+
+.main-btn:hover {
+    background-color: #003300;
+}
+
+.sec-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+}
+
+.field-img {
+    width:100%;
+    max-width:520px;
+    height:auto;
+    border-radius:20px;
+    margin:80px 0;
+}
+
+
+
+.story {
+    letter-spacing: 2px;
+    color: #017601;
+    margin-top: 260px;
+    margin-bottom: 20px;
+}
+
+.sec-head {
+    color: #003300;
+    font-size: 50px;
+    max-width: 700px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.sec-desc {
+    color: rgb(71, 71, 71);
+    line-height: 35px;
+    font-size: 17px;
+    max-width: 600px;
+}
+
+.mid-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.data-box {
+    background-color: rgb(244, 244, 244);
+    padding: 15px 30px;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.data-box:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+.years {
+    font-size: 30px;
+    color: #017601;
+}
+
+.experience {
+    
+    color: rgb(85, 85, 85);
+}
+
+.sec-end {
+    text-align: center;
+}
+
+.sec-end-head {
+    color: #003300;
+    font-size: 43px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    position: relative;
+    top: -20px;
+}
+
+.end-disc {
+    color: rgb(94, 92, 92);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.david-img {
+    height: 350px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.the-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.person-name {
+    color: #003300;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.proff {
+    color: #017601;
+    
+}
+
+.intro {
+    color: rgb(109, 109, 109);
+    line-height: 30px;
+    
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.end-credit {
+    background-color: rgb(244, 244, 244);
+    border-radius: 25px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+.end-credit:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+#up:hover {
+    position: relative;
+    bottom: 20px;
+}
+
+#down:hover {
+    position: relative;
+    top: 20px;
+}
+
+/* ---------- TABLET ---------- */
+
+@media (max-width:1024px){
+
+*{
+box-sizing:border-box;
+}
+
+body{
+overflow-x:hidden;
+}
+
+.about-main{
+gap:40px;
+padding:60px 30px;
+min-height:auto;
+}
+
+.main-img{
+max-width:450px;
+}
+
+.about-heading{
+font-size:52px;
+}
+
+.about-description{
+font-size:17px;
+}
+
+.sec-part{
+gap:40px;
+padding:40px 20px;
+}
+
+.field-img{
+max-width:450px;
+margin:0;
+}
+
+.story{
+margin-top:20px;
+}
+
+.sec-head{
+font-size:42px;
+line-height:52px;
+}
+
+.data-box{
+width:180px;
+}
+
+.the-end{
+gap:25px;
+}
+
+.end-credit{
+width:45%;
+margin-bottom:40px;
+}
+
+.david-img{
+width:100%;
+height:auto;
+}
+
+}
+
+/* ---------- MOBILE ---------- */
+
+
+@media (max-width:768px){
+
+*{
+box-sizing:border-box;
+}
+
+body{
+overflow-x:hidden;
+}
+
+.about-main{
+display:flex;
+flex-direction:column;
+padding:40px 20px;
+text-align:center;
+gap:30px;
+min-height:auto;
+}
+
+.main-img{
+order:1;
+width:100%;
+max-width:350px;
+margin:auto;
+}
+
+.about-main>div:first-child{
+order:2;
+}
+
+.about-heading{
+font-size:38px;
+line-height:1.2;
+margin:auto;
+}
+
+.about-description{
+font-size:16px;
+line-height:28px;
+margin:auto;
+}
+
+.main-btn{
+margin-top:20px;
+}
+
+.sec-part{
+display:flex;
+flex-direction:column;
+padding:30px 20px;
+text-align:center;
+gap:30px;
+}
+
+.field-img{
+width:100%;
+max-width:350px;
+margin:auto;
+}
+
+.story{
+margin-top:20px;
+}
+
+.sec-head{
+font-size:32px;
+line-height:42px;
+}
+
+.sec-desc{
+font-size:16px;
+line-height:30px;
+margin:auto;
+}
+
+.mid-part{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:20px;
+}
+
+.data-box{
+width:100%;
+max-width:300px;
+}
+
+.sec-end-head{
+font-size:32px;
+}
+
+.end-disc{
+font-size:16px;
+line-height:28px;
+padding:0 10px;
+}
+
+.the-end{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:30px;
+}
+
+.end-credit{
+width:100%;
+max-width:340px;
+margin-bottom:20px;
+}
+
+.david-img{
+width:100%;
+height:auto;
+}
+
+}
