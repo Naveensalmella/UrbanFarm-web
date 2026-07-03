@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header-container {
     background-color: #003300;
     height: 70px;
@@ -292,4 +293,253 @@ h2 {
         left: 0;
     }
 
+=======
+.header-container {
+    background-color: #003300;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+}
+    
+    
+a {
+    text-decoration: none;
+}
+
+.nav-elements {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-elements:hover {
+    color: rgb(7, 207, 7);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    gap: 35px;
+}
+
+.urban {
+    color: white;
+    padding-top: 50px;
+}
+
+.farm {
+    color: #66ff99;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #66ff99;
+    border-style: none;
+    border-radius: 10px;
+    color: #003300;
+    font-weight: bolder;
+    font-size: 15px;
+    animation: blinkEffect 2s linear infinite alternate;
+}
+
+@keyframes blinkEffect {
+    0% {
+        opacity: 1.5;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1.5;
+    }
+}
+
+.nav-btn:hover {
+    background-color: white;
+    color: #003300;
+}
+
+.hamburger {
+    color: white;
+    font-size: 35px;
+}
+
+.ham-icon {
+    display: none;
+}
+
+@media (max-width: 996px) {
+    .nav-container {
+        display: none;
+    }
+    .navigation {
+        display: none;
+    }
+    .ham-icon {
+        display: block;
+    }
+}
+
+/* ==========================================
+   MOBILE MENU
+   Hidden by default
+========================================== */
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* ==========================================
+   TABLET & MOBILE VIEW
+========================================== */
+
+@media (max-width: 996px) {
+
+    /* Show Hamburger Icon */
+    .ham-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Mobile Menu Styling */
+    .mobile-menu {
+
+        display: flex;
+        flex-direction: column;
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+
+        /* Same color as desktop navbar */
+        background-color: #003300;
+
+        padding: 20px;
+
+        gap: 20px;
+    }
+
+    /* Mobile Links */
+    .mobile-nav-elements {
+
+        color: white;
+        font-size: 18px;
+
+        text-decoration: none;
+    }
+
+    .mobile-nav-elements:hover {
+        color: #66ff99;
+    }
+
+    /* Mobile Button */
+    .mobile-btn {
+
+        padding: 10px 20px;
+
+        background-color: #66ff99;
+
+        border: none;
+
+        border-radius: 10px;
+
+        color: #003300;
+
+        font-weight: bold;
+
+        width: fit-content;
+    }
+
+    .mobile-btn:hover {
+        background-color: white;
+    }
+}
+
+.footer-container {
+   
+}
+
+.footer-part {
+    background-color: #003300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.footer-text {
+    color: white;
+    line-height: 32px;
+
+}
+
+h2 {
+    color: white;
+}
+
+.footer-elements {
+    line-height: 32px;
+    color: white;
+    
+}
+
+.final-footer {
+    background-color: #003300;
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.line {
+    background-color: #003300;
+}
+
+.quick {
+    position: relative;
+    top: 50px;
+}
+
+.finish-line {
+    margin: 0;
+}
+
+.globe-icon {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.globe {
+    font-size: 20px;
+    position: relative;
+    left: 7.5px;
+    top: 7.5px;
+}
+
+.globe-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+>>>>>>> de51d309f3683829b3963f973f5774aca226f3a0
 }

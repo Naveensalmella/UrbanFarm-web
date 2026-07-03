@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #farming {
     position: relative;
     bottom: 22px;
@@ -243,4 +244,138 @@ hr {
         width: 100%;
     }
 
+=======
+#farming {
+    position: relative;
+   bottom: 22px;
+}
+
+.background {
+    background-image: url(images/carrot2.jpeg);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    color: #02ff02;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.heading {
+    color: white;
+    font-size: 80px;
+   position: relative;
+   bottom: 50px;
+
+    
+}
+
+.description {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 100px;
+    line-height: 40px;
+}
+
+.contact-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    gap: 50px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+
+}
+
+.contact-image {
+    height:50vh;
+    border-radius: 20px;
+}
+
+.section-heading {
+    font-size: 55px;
+    color:  #003300;
+}
+
+.sec-info {
+    font-size: 25px;
+    color:  #003300;
+    
+}
+
+.sec-desctiption {
+    color: rgb(117, 117, 117);
+    font-weight: 200;
+    position: relative;
+    bottom: 10px;
+}
+
+.get {
+    font-size: 16px;
+    font-weight:bolder;
+    color: #058205;
+}
+
+.name {
+    padding: 15px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.sec-box{
+    padding: 15px;
+    width: 600px;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.end {
+    color: rgb(119, 119, 119);
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.contact-submit {
+    padding: 20px 30px;
+    background-color: #058205;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.contact-submit:hover {
+    background-color:#003300;
+    color: white;
+}
+
+hr {
+    width: 600px;
+    border: 1px solid rgb(233, 231, 231);
+>>>>>>> de51d309f3683829b3963f973f5774aca226f3a0
 }

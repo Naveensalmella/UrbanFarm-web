@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 #farming {
@@ -400,4 +401,198 @@ width:100%;
 height:auto;
 }
 
+=======
+#farming {
+    position: relative;
+   bottom: 22px;
+}
+
+
+.about-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 96vh;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+
+.main-img {
+    height: 360px;
+    width: 550px;
+    border-radius: 20px;
+}
+
+.about-heading {
+    font-size: 70px;
+    color: #003300;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: rgb(78, 77, 77);
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+    line-height: 33px;
+}
+
+.main-btn {
+    color: white;
+    background-color: #004d00;
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 17px;
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
+
+.main-btn:hover {
+    background-color: #003300;
+}
+
+.sec-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+}
+
+.field-img {
+    height: 125vh;
+    width: 85vh;
+    margin-top: 90px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.story {
+    letter-spacing: 2px;
+    color: #017601;
+    margin-top: 260px;
+}
+
+.sec-head {
+    color: #003300;
+    font-size: 50px;
+}
+
+.sec-desc {
+    color: rgb(71, 71, 71);
+    line-height: 35px;
+    font-size: 17px;
+}
+
+.mid-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+
+.data-box {
+    background-color: rgb(244, 244, 244);
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+.data-box:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+.years {
+    font-size: 30px;
+    color: #017601;
+}
+
+.experience {
+    position: relative;
+    bottom: 15px;
+    color: rgb(85, 85, 85);
+}
+
+.sec-end {
+    text-align: center;
+}
+
+.sec-end-head {
+    color: #003300;
+    font-size: 43px;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.end-disc {
+    color: rgb(94, 92, 92);
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.david-img {
+    height: 350px;
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.the-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    text-align: center;
+}
+
+.person-name {
+    color: #003300;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.proff {
+    color: #017601;
+    position: relative;
+    bottom: 10px;
+}
+
+.intro {
+    color: rgb(109, 109, 109);
+    line-height: 30px;
+    position: relative;
+    bottom: 15px;
+}
+
+.end-credit {
+    background-color: rgb(244, 244, 244);
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+
+.end-credit:hover {
+    background-color: rgb(223, 220, 220);
+}
+
+#up:hover {
+    position: relative;
+    bottom: 20px;
+}
+
+#down:hover {
+    position: relative;
+    top: 20px;
+>>>>>>> de51d309f3683829b3963f973f5774aca226f3a0
 }
