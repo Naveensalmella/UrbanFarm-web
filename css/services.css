@@ -1,5 +1,3 @@
-
-
 #farming {
     position: relative;
     bottom: 22px;
@@ -10,7 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
+
     min-height: 95vh;
     padding: 70px 40px;
     background: #f4f4f4;
@@ -39,16 +37,16 @@
 }
 
 .serv-desc {
-    
+
     font-size: 18px;
     line-height: 32px;
     color: #5a5a5a;
     max-width: 600px;
-    
+
 }
 
 .serv-exp {
-    
+
     background-color: #004d00;
     color: white;
     padding: 15px 30px;
@@ -74,7 +72,7 @@
 
 .farm-services {
     font-size: 42px;
-    
+
     color: #003300;
 }
 
@@ -101,7 +99,7 @@
 }
 
 .farm-box {
-    
+
 
     background-color: white;
     border-radius: 20px;
@@ -135,7 +133,7 @@
 
 .farming-category {
     color: #003300;
-    
+
 }
 
 #our {
@@ -158,138 +156,138 @@
 
 /* ---------- TABLET ---------- */
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
 
-*{
-box-sizing:border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-body{
-overflow-x:hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-.services-main{
-gap:50px;
-padding:60px 30px;
-min-height:auto;
-}
+    .services-main {
+        gap: 50px;
+        padding: 60px 30px;
+        min-height: auto;
+    }
 
-.vege-img{
-max-width:450px;
-}
+    .vege-img {
+        max-width: 450px;
+    }
 
-.services-heading{
-font-size:52px;
-}
+    .services-heading {
+        font-size: 52px;
+    }
 
-.serv-desc{
-font-size:17px;
-line-height:30px;
-}
+    .serv-desc {
+        font-size: 17px;
+        line-height: 30px;
+    }
 
-.farm-services{
-font-size:38px;
-}
+    .farm-services {
+        font-size: 38px;
+    }
 
-.farm-sec-desc{
-font-size:17px;
-padding:0 20px 40px;
-}
+    .farm-sec-desc {
+        font-size: 17px;
+        padding: 0 20px 40px;
+    }
 
-.all-box{
-gap:20px;
-}
+    .all-box {
+        gap: 20px;
+    }
 
-.farm-box{
-width:220px;
-}
+    .farm-box {
+        width: 220px;
+    }
 
 }
 
 /* ---------- MOBILE ---------- */
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-*{
-box-sizing:border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-body{
-overflow-x:hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-.services-main{
-display:flex;
-flex-direction:column;
-text-align:center;
-padding:40px 20px;
-gap:30px;
-min-height:auto;
-}
+    .services-main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+        min-height: auto;
+    }
 
-.services-main>div:first-child{
-order:2;
-}
+    .services-main>div:first-child {
+        order: 2;
+    }
 
-.services-main>div:last-child{
-order:1;
-}
+    .services-main>div:last-child {
+        order: 1;
+    }
 
-.vege-img{
-width:100%;
-max-width:340px;
-margin:auto;
-}
+    .vege-img {
+        width: 100%;
+        max-width: 340px;
+        margin: auto;
+    }
 
-.services-head{
-font-size:14px;
-}
+    .services-head {
+        font-size: 14px;
+    }
 
-.services-heading{
-font-size:38px;
-line-height:1.2;
-margin:auto;
-}
+    .services-heading {
+        font-size: 38px;
+        line-height: 1.2;
+        margin: auto;
+    }
 
-.serv-desc{
-font-size:16px;
-line-height:28px;
-margin:auto;
-}
+    .serv-desc {
+        font-size: 16px;
+        line-height: 28px;
+        margin: auto;
+    }
 
-.serv-exp{
-margin-top:20px;
-}
+    .serv-exp {
+        margin-top: 20px;
+    }
 
-.farm-services{
-font-size:32px;
-padding-top:60px;
-}
+    .farm-services {
+        font-size: 32px;
+        padding-top: 60px;
+    }
 
-.farm-sec-desc{
-font-size:16px;
-line-height:28px;
-padding:0 15px 35px;
-}
+    .farm-sec-desc {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 15px 35px;
+    }
 
-.all-box{
-display:flex;
-flex-direction:column;
-align-items:center;
-gap:25px;
-}
+    .all-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
 
-.farm-box{
-width:100%;
-max-width:330px;
-}
+    .farm-box {
+        width: 100%;
+        max-width: 330px;
+    }
 
-.plants{
-font-size:45px;
-}
+    .plants {
+        font-size: 45px;
+    }
 
-.farming-category{
-font-size:20px;
-}
+    .farming-category {
+        font-size: 20px;
+    }
 
 }

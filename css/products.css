@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 #farming {
     position: relative;
-   bottom: 22px;
+    bottom: 22px;
 }
 
 .products-front-image {
@@ -44,9 +43,11 @@
     0% {
         opacity: 2.0;
     }
+
     50% {
         opacity: 0.5;
     }
+
     100% {
         opacity: 2.0;
     }
@@ -106,7 +107,7 @@
     left: 30px;
     text-align: start;
     font-size: 30px;
-    
+
 }
 
 .organic-collection {
@@ -130,7 +131,7 @@
 
 .pro-image {
     height: 220px;
-    width:300px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -207,295 +208,91 @@
 
 /* ---------- TABLET ---------- */
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
 
-*{
-    box-sizing:border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-body{
-    overflow-x:hidden;
-}
+    body {
+        overflow-x: hidden;
+    }
 
-.main-image,
-.main-img,
-.field-img,
-.contact-image,
-.vege-img,
-.pro-sec-photo,
-.veg,
-.david-img{
-    width:100%;
-    height:auto;
-}
+    .main-image,
+    .main-img,
+    .field-img,
+    .contact-image,
+    .vege-img,
+    .pro-sec-photo,
+    .veg,
+    .david-img {
+        width: 100%;
+        height: auto;
+    }
 
-.main-title,
-.about-heading,
-.heading,
-.services-heading,
-.product-main-head{
-    font-size:48px;
-}
+    .main-title,
+    .about-heading,
+    .heading,
+    .services-heading,
+    .product-main-head {
+        font-size: 48px;
+    }
 
-.main-discription,
-.about-description,
-.description,
-.serv-desc,
-.product-main-desc{
-    font-size:18px;
-    line-height:30px;
-}
+    .main-discription,
+    .about-description,
+    .description,
+    .serv-desc,
+    .product-main-desc {
+        font-size: 18px;
+        line-height: 30px;
+    }
 
 }
 
 /* ---------- MOBILE ---------- */
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-*{
-    box-sizing:border-box;
-}
-
-body{
-    overflow-x:hidden;
-}
-
-}
-
-@media(max-width:768px){
-
-.products-front-image{
-    padding:80px 20px;
-    text-align:center;
-}
-
-.product-main-head{
-    font-size:42px;
-}
-
-.class,
-.shortcut-all{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.prod-cate,
-.shortcut{
-    width:90%;
-}
-
-.pro-image{
-    width:100%;
-}
-
-.shop-by,
-.collects{
-    font-size:34px;
-}
-
-=======
-#farming {
-    position: relative;
-   bottom: 22px;
-}
-
-.products-front-image {
-    background-image: url(/css/images/place2.jpeg);
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-.product-main-head {
-    color: white;
-    font-size: 70px;
-}
-
-.product-main-desc {
-    color: white;
-    font-size: 20px;
-    position: relative;
-    bottom: 30px;
-}
-
-.product-main-btn {
-    background-color: rgb(16, 119, 16);
-    border-style: none;
-    color: white;
-    padding: 15px 30px;
-    font-size: 17px;
-    font-weight: bold;
-    border-radius: 10px;
-    position: relative;
-    bottom: 10px;
-    animation: blinkEffect 2s linear infinite alternate;
-}
-
-@keyframes blinkEffect {
-    0% {
-        opacity: 2.0;
+    * {
+        box-sizing: border-box;
     }
-    50% {
-        opacity: 0.5;
+
+    body {
+        overflow-x: hidden;
     }
-    100% {
-        opacity: 2.0;
+
+}
+
+@media(max-width:768px) {
+
+    .products-front-image {
+        padding: 80px 20px;
+        text-align: center;
     }
-}
 
-.product-main-btn:hover {
-    background-color: white;
-    color: rgb(16, 119, 16);
-}
+    .product-main-head {
+        font-size: 42px;
+    }
 
-.products-section {
-    text-align: center;
-    padding-top: 80px;
-    background-color: rgba(244, 244, 244);
-}
+    .class,
+    .shortcut-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.shop-by {
-    font-size: 45px;
-    color: #003300;
-}
+    .prod-cate,
+    .shortcut {
+        width: 90%;
+    }
 
-.shop-explore {
-    font-size: 18px;
-    color: rgb(93, 93, 93);
-    line-height: 30px;
-    position: relative;
-    bottom: 10px;
-    padding-bottom: 60px;
-}
+    .pro-image {
+        width: 100%;
+    }
 
-.pro-sec-photo {
-    height: 420px;
-    width: 300px;
-    border-radius: 20px;
-}
+    .shop-by,
+    .collects {
+        font-size: 34px;
+    }
 
-.class {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding-bottom: 100px;
-}
-
-.prod-cate {
-    position: relative;
-}
-
-
-.photos-names {
-    color: white;
-    position: absolute;
-    bottom: 12px;
-    left: 30px;
-    text-align: start;
-    font-size: 30px;
-    
-}
-
-.organic-collection {
-    text-align: center;
-    padding-top: 100px;
-    background-color: rgba(244, 244, 244);
-}
-
-.our-products {
-    letter-spacing: 2px;
-    color: rgb(9, 129, 9);
-    margin-bottom: 0;
-}
-
-.collects {
-    font-size: 40px;
-    color: #003300;
-    margin-top: 15px;
-    padding-bottom: 50px;
-}
-
-.pro-image {
-    height: 220px;
-    width:300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.shortcut-all {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    text-align: start;
-    padding-bottom: 30px;
-}
-
-.shortcut {
-    background-color: white;
-    border-radius: 20px;
-    height: 340px;
-    position: relative;
-}
-
-#up:hover {
-    position: relative;
-    bottom: 20px;
-}
-
-.green {
-    font-size: 21px;
-    padding-left: 20px;
-    color: #003300;
-    margin-bottom: 0;
-}
-
-.dollar {
-    padding-left: 20px;
-    color: rgb(20, 150, 20);
-    font-size: 23px;
-    margin-top: 15px;
-}
-
-.plus-icon {
-    position: absolute;
-    font-size: 35px;
-    bottom: 25px;
-    right: 20px;
-    color: rgb(20, 150, 20);
-}
-
-.plus-icon:hover {
-    color: #003300;
-    transform: scale(1.2);
-}
-
-.popup-box {
-    position: relative;
-}
-
-.pop-up {
-    position: absolute;
-    color: white;
-    background-color: rgb(4, 119, 4);
-    border-style: none;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-radius: 15px;
-    top: 20px;
-    left: 15px;
-}
-
-#down:hover {
-    position: relative;
-    top: 20px;
->>>>>>> de51d309f3683829b3963f973f5774aca226f3a0
 }
